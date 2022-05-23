@@ -1,11 +1,3 @@
-/*******************************************************
-   www.ichibot.id
-   copyright @ 2018
-   Email : shmukti@ichibot.id
-   dilarang dicopy atau dipakai atau di perjual belikan
-   untuk tujuan komersil tanpa seijin dari masmukti
-   atau kamu akan dikutuk menjadi batu
- ********************************************************/
 #include <ichibotArduinoNano.h>
 ichibotArduinoNano ichibot;
 
