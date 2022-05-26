@@ -44,7 +44,7 @@ void setup() {
      
   // =============== STOP INDEX =============== ROBOT AKAN BERHENTI JIKA SUDAH MENCAPAI INDEX DIBAWAH INI //
    
-     ichibot.setStopIndex(18);
+     ichibot.setStopIndex(17);
   
  // ============================= TEMPAT MENULISKAN SEMUA PERINTAH INDEX =============================  //
      
@@ -54,10 +54,11 @@ void setup() {
       ichibot.setIndex(2,BELOK_KANAN, 80, SENSOR_KANAN,  90, 10, PID_3, GARIS_HITAM , KIPAS_OFF);
       ichibot.setIndex(3,BELOK_KIRI, 20, SENSOR_KIRI,  55, 10, PID_3, GARIS_HITAM , KIPAS_OFF);
       ichibot.setIndex(4, MOTION, 250, -250, 125, SENSOR_KANAN, 100, 0, PID_0, GARIS_HITAM, KIPAS_OFF,NORMAL);
-      ichibot.setIndex(5,LURUS, 80, SENSOR_KOSONG,  30, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
-      ichibot.setIndex(6, MOTION, -255, 255, 114, SENSOR_KOSONG, 100, 0, PID_0, GARIS_HITAM, KIPAS_OFF,NORMAL);
+      ichibot.setIndex(5,LURUS, 85, SENSOR_KOSONG,  30, 5, PID_4, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(6, MOTION, -255, 255, 125, SENSOR_KIRI, 100, 0, PID_0, GARIS_HITAM, KIPAS_OFF,NORMAL);
       //ichibot.setIndex(7,LURUS, 40, SENSOR_SEMUA,  5, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       //ichibot.setIndex(8,LURUS, 40, SENSOR_KANAN,  5, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      //ichibot.setIndex(7,LURUS, 40, SENSOR_KANAN,  30, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(7,BELOK_KANAN, 40, SENSOR_KANAN,  5, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(8,LURUS, 40, SENSOR_KANAN,  30, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(9,BELOK_KIRI, 40, SENSOR_KIRI,  30, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
@@ -65,12 +66,20 @@ void setup() {
       ichibot.setIndex(11,BELOK_KANAN, 40, SENSOR_KANAN,  30, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(12,LURUS, 40, SENSOR_KANAN,  30, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(13,LURUS, 80, SENSOR_SEMUA,  80, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      //CheckPoint
       ichibot.setIndex(14,LURUS, 50, SENSOR_KIRI,  80, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(15,BELOK_KIRI, 80, SENSOR_KIRI,  80, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(16,LURUS, 20, SENSOR_KIRI,  50, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
-      ichibot.setIndex(17,LURUS, 20, SENSOR_KIRI,  50, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(17,LURUS, 20, SENSOR_KIRI,  50, 5, PID_4, GARIS_HITAM , KIPAS_OFF,NORMAL);
       //ichibot.setIndex(17,LURUS, 20, SENSOR_KIRI,  50, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
       ichibot.setIndex(18,BELOK_KIRI, 20, SENSOR_KIRI,  50, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(19,LURUS, 20, SENSOR_KIRI_TENGAH,  50, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(20,BELOK_KIRI, 20, SENSOR_SEMUA,  50, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(21,BELOK_KANAN, 50, SENSOR_KANAN,  80, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(22, MOTION, 200, 200, 120, SENSOR_KOSONG, 100, 0, PID_0, GARIS_HITAM, KIPAS_OFF,NORMAL);
+      //ichibot.setIndex(22,LURUS, 40, SENSOR_KOSONG,  50, 5, PID_4, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(23,BELOK_KIRI, 20, SENSOR_KIRI,  50, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
+      ichibot.setIndex(24,BELOK_KANAN, 20, SENSOR_KANAN,  80, 5, PID_5, GARIS_HITAM , KIPAS_OFF,NORMAL);
       
       //ichibot.setIndex(10,LURUS, 40, SENSOR_SEMUA,  5, 5, PID_3, GARIS_HITAM , KIPAS_OFF,NORMAL);
      
